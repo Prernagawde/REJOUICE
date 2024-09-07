@@ -1,0 +1,390 @@
+@font-face {
+  font-family: nb;
+  src: url(./NBInternationalProBoo\ \(1\).woff2);
+}
+@font-face {
+  font-family: rejoy;
+  src: url(./Rejouice-Headline\ \(1\).woff2);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: nb;
+  
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.cursor {
+  height: 7.5vw;
+  width: 7.5vw;
+  background-color: #1e1e1e96;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+}
+.cursor h5 {
+  font-size: 1vw;
+}
+.page1 {
+  height: 100vh;
+  width: 100%;
+  /* background-color: blue; */
+  position: relative;
+  color: white;
+}
+.page1 video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.page1-content {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.page1 nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3vw 3vw;
+}
+.page1 h3 {
+  text-transform: capitalize;
+  font-family: nb;
+  font-weight: 100;
+  font-size: 1.4vw;
+}
+.page1 h4 {
+  font-size: 1.4vw;
+  font-family: nb;
+  font-weight: 100;
+}
+.page1 h1 {
+  font-family: rejoy;
+  font-size: 27vw;
+  line-height: 55vw;
+  font-weight: 500;
+}
+.page1 h1 span {
+  font-family: rejoy;
+}
+.no-dot {
+  font-size: 20vw;
+  font-family: rejoy;
+  font-weight: 500;
+}
+.page2 {
+  height: 100vh;
+  width: 100%;
+  background-color: #faf8f3;
+  padding: 4.7vw 3vw;
+}
+.page2 .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.page2 h4 {
+  font-size: 1.8vw;
+  font-weight: 400;
+}
+.page2 h4 sup {
+  color: #585858;
+  font-size: 1vw;
+}
+.page2 h5 {
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+.line {
+  width: 1%;
+  height: 1px;
+  background-color: #545452;
+}
+
+.page2 p {
+  font-size: 4.2vw;
+  line-height: 4.4vw;
+}
+.p {
+  margin-top: 1.9vw;
+  margin-left: 130px;
+}
+p span {
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.page3{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #FAF8F3;
+   position: relative;
+   padding: 3vw;
+    
+}
+.page3-top{
+    /* background-color: red; */
+    text-align: center;
+
+}
+.page3-top h5{
+    margin-bottom: 1vw;
+    font-size: 1vw;
+    font-weight: 500;
+}
+.page3-top h5 i{
+    margin-left: 10px;
+    font-size: 15px;
+    color: #545452;
+}
+.page3-top h5 span{
+    font-size: 0.7vw;
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+.page3-top h6{
+    font-size: 4vw;
+    font-weight: 500;
+}
+.page3-elem{
+ 
+    height: 85vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.page3-elem .box{
+    height: 100%;
+    width: 32.5%;
+    /* background-color: blue; */
+    position: relative;
+}
+.page3-elem .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    transition: all ease 1s;
+}
+.page3-elem .box video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+
+}
+.page3-elem .box:hover img{
+  opacity: 0;
+  
+}
+.page3 .mid{
+  /* background-color: red; */
+  margin-top: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.page3 .mid h5{
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+.page3 .mid h6{
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+.page3 .mid h6 i{
+  color: #545452;
+  font-weight: 500;
+}
+
+
+.page4{
+  min-height: 100vh;
+  width: 100%;
+  background-color: #FAF8F3;
+  padding: 7.7vw 3vw;
+}
+.page4 .top {
+  
+  
+  margin-bottom: 20px;
+}
+.page4 .top h4{
+  font-size: 1.6vw;
+  font-weight: 500;
+}
+.page4 .top h5{
+  font-size: 1.6vw;
+  font-weight: 500;
+}
+.page4-mid p{
+  font-size:4.1vw;
+  line-height: 4.4vw;
+}
+.page4-mid{
+  margin-bottom: 8vw;
+}
+/* .page4-btm{
+  height: 8vw;
+  
+  background-color:#FAF8F3;
+} */
+.page5{
+ 
+  height: 100vh;
+  width: 100%;
+  background-color: #FAF8F3;
+  /* background-color: black; */
+  
+  position: relative;
+}
+.page5 .wrap5{
+
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.wrap5 video{
+  height: 140vh;
+  z-index: 2;
+  
+}
+.wrap5 svg{
+  height: 90%;
+  position: absolute;
+  z-index: 3;
+}
+ .page5-mid{
+  /* background-color: red; */
+  position: absolute;
+  z-index: 4;
+}
+.page5-mid h3{
+  font-size: 4vw;
+  color: #FFFCF1;
+}
+.page5-mid h4{
+  font-size: 1.7vw;
+  color: #FFFCF1;
+}
+.page5 .pointer{
+  height: 7vw;
+  width: 7vw;
+  background-color:#0E0E0E;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+}
+.page5 .pointer h5{
+  color: white;
+  font-size: 1vw;
+  font-weight: 500;
+}
+.page6{
+ min-height: 100vh; 
+  width: 100%;
+  background-color: #FAF8F3;
+  padding: 15vw 3vw;
+}
+.page6 .top{
+  margin-bottom: 15px;
+}
+.page6 .top h4{
+  font-size: 1.7vw;
+  font-weight: 500;
+}
+.page6 .top h5{
+  font-size: 1.6vw;
+  font-weight: 500;
+}
+.page6 .mid p{
+  font-size: 4.2vw;
+}
+.page7{
+  height: 100vh;
+  width: 100%;
+  background-color: #FAF8F3 ;
+  
+}
+.page7 .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 96%;
+  /* background-color: red; */
+  margin-left: 2%;
+  border-bottom: 1px solid #515050;
+
+}
+.page7 .top h5{
+  font-size: 8.5vw;
+  font-weight: 600;
+  
+}
+.page7 .top h6{
+  font-size: 2vw;
+  font-weight: 200;
+  margin-top: 120px;
+  margin-bottom: 20px;
+  
+}
+.page7 .top h6 i{
+  margin-left: 10px;
+    font-size: 25px;
+    color: #545452;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
